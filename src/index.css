@@ -116,3 +116,58 @@ code {
   margin: 0; 
   padding: 5px; 
 }
+
+/*sign up form */
+
+.sign-up-form{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.sign-up-form button{
+  width: 30%;
+  margin-top: 30px;
+}
+
+.form-container, .driver-box-container, .box-color-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* color picker*/
+.square{
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+}
+
+.all-colors{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.single-color{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  padding: 20px;
+  align-items: center;
+  }
+
+.all-colors-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.single-color-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
